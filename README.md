@@ -2,7 +2,8 @@
 This project implements and compares three different language modeling architectures: `RNN`, `LSTM`, and `Transformer`. It supports training, evaluation, and text generation on custom datasets using a SentencePiece tokenizer.
 
 ## Tokenization Setup
-The data used for this project is located within the data folder that is located in the root, e.g. `csc4700-project2/data` .
+The data used for this project is located within the data folder that is located in the root.
+e.g. `csc4700-project2/data` 
 
 If you ever need to retrain the Tokenizer, start by moving into the Tokenizer directory with cd tokenizer, then execute `python3 tokenizer.py`. This process not only retrains the model but also prepares the dataset by inserting start (<bos>) and end (<eos>) tokens into the training and testing files, and produces a corpus.txt file for reference. Note that the Tokenizer has already been trained in this repository.
 
